@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: left
-  image: 1mc2.png
+  image:  
   # address: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
@@ -14,7 +14,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 I am a PhD Student at Laboratory of Systems & Applications of Information & Energy Technologies - SATIE. 
