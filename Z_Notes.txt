@@ -16,3 +16,33 @@ https://github.com/alshedivat/al-folio
 # ////////////////////////////////////////////////////////////////////////////////
 # MC : To Use
 bundle exec jekyll serve
+
+
+
+# MC : INSPI
+~/bachirelkhadir.github.io
+~/julianstreyczek.github.io
+~/julianstreyczek.github.io_new
+
+
+~/scottleechua.github.io
+
+---
+layout: page
+permalink: /cv/
+title: cv
+description: 
+nav: true
+# nav_order: 4
+# cv_pdf: example_pdf.pdf
+
+---
+<!-- 
+For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+
+Organize your courses by years, topics, or universities, however you like! -->
+
+
+<!-- {% pdf "/assets/pdf/cv_Mohammed_CHGHAF.pdf" width=350px height=500px %} -->
+
+<!-- **You can download a PDF copy of my CV [here](/assets/pdf/cv_Mohammed_CHGHAF.pdf).** -->

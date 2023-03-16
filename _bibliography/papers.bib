@@ -1,2 +1,104 @@
 ---
 ---
+@inproceedings{Chghaf2020,
+  abbr        = {RTCSA},
+  title       = {{Data distribution on a multi-GPU node for TomoBayes CT reconstruction}},
+  author      = {Chghaf, Mohammed and Gac, Nicolas},
+  url         = {https://hal.archives-ouvertes.fr/hal-02586239},
+  note        = {Virtual conference (Covid)},
+  booktitle   = {{The 26th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications}},
+  address     = {Inconnu, South Korea},
+  year        = {2020},
+  month       = Aug,
+  keywords    = {Multi GPU ; Iterative reconstruction ; Data Distribution},
+  pdf         = {https://hal.archives-ouvertes.fr/hal-02586239v4/file/main.pdf},
+  hal_id      = {hal-02586239},
+  hal_version = {v4},
+  video       = {https://www.youtube.com/watch?v=gzkpGD-KBpo},
+  abstract    = {Computed tomography (CT) is an imaging tech- nique that uses iterative algorithms to reconstruct the interior of large volumes. Graphics Processing Units (GPUs) are cur- rently the preferred technology for computation acceleration. However, the collected data storage can exceed the internal memory of current GPUs and therefore requires costly CPU GPU data transfers. In this paper, we present a strategy of data distribution over several GPUs avoiding this bottleneck. We provide experimental results showing that our memory-saving method accelerates the iterative reconstruction. We achieve a better parallelisation efficiency using 8 GPUs to reconstruct a volume of size 4 GB than reconstructions based on centralised data storage on CPU.}
+}
+
+@article{chghaf:hal-03647769,
+  abbr        = {JINT},
+  title       = {{Camera, LiDAR and Multi-modal SLAM Systems for Autonomous Ground Vehicles: a Survey}},
+  author      = {Chghaf, Mohammed and Rodríguez Flórez, Sergio Alberto and El Ouardi, Abdelhafid},
+  url         = {https://link.springer.com/article/10.1007/s10846-022-01582-8?noAccess=true},
+  journal     = {{Journal of Intelligent and Robotic Systems}},
+  publisher   = {{Springer Verlag}},
+  volume      = {105},
+  number      = {1},
+  pages       = {2},
+  year        = {2022},
+  month       = Apr,
+  doi         = {10.1007/s10846-022-01582-8},
+  hal_id      = {hal-03647769},
+  hal_version = {v1},
+  pdf         = {https://rdcu.be/cLMWA},
+  abstract    = {Simultaneous Localization and Mapping (SLAM) have been widely studied over the last years for autonomous vehicles. SLAM achieves its purpose by constructing a map of the unknown environment while keeping track of the location. A major challenge, which is paramount during the design of SLAM systems, lies in the efficient use of onboard sensors to perceive the environment. The most widely applied algorithms are camera-based SLAM and LiDAR-based SLAM. Recent research focuses on the fusion of camera-based and LiDAR-based frameworks that show promising results. In this paper, we present a study of commonly used sensors and the fundamental theories behind SLAM algorithms. The study then presents the hardware architectures used to process these algorithms and the performance obtained when possible. Secondly, we highlight state-of-the-art methodologies in each modality and in the multi-modal framework. A brief comparison followed by future challenges is then underlined. Additionally, we provide insights to possible fusion approaches that can increase the robustness and accuracy of modern SLAM algorithms; hence allowing the hardware-software co-design of embedded systems taking into account the algorithmic complexity and the embedded architectures and real-time constraints.},
+  altmetric   = {true},
+  dimensions  = {true}
+}
+
+
+
+@inproceedings{chghaf2022stereo,
+  abbr      = {GRETSI},
+  title     = {A stereo vision geometric descriptor for place recognition and its GPU acceleration for autonomous vehicles applications},
+  author    = {Chghaf, Mohammed and Florez, Sergio Alberto Rodriguez and Elouardi, Abdelhafid},
+  booktitle = {XXVIII{\`e}me Colloque Francophone de Traitement du Signal et des Images, GRETSI'22},
+  year      = {2022},
+  pdf       = {http://gretsi.fr/data/colloque/pdf/2022_chghaf1024.pdf},
+  abstract  = {In this paper we present a geometric global descriptor dedicated for place recognition in autonomous vehicles applications that is based
+               on stereo camera generated point clouds. We first present the approach used to record the 3D structure of the visible space. Then, we propose
+               a parametric optimization to achieve the best performance by coupling the dedicated sensor (Stereo Camera) and the used algorithm. Finally, we
+               propose a GPU implementation based on CUDA. Compared to a CPU, processing times on GPU are accelerated 7 times on a Jetson AGX Xavier
+               and 30 times using a GeForce RTX 3080.}
+}
+
+
+
+
+
+@inproceedings{chghaf2023_spie,
+  abbr      = {SPIE+OO},
+  title     = {Real-time large-scale place recognition for autonomous ground vehicles using a spatial descriptor},
+  author    = {Chghaf, Mohammed and Florez, Sergio Alberto Rodriguez and Elouardi, Abdelhafid},
+  booktitle = {SPIE Optics and Optoelectronics},
+  year      = {2023},
+  abstract  = {Place recognition is a key task in an autonomous vehicle's Simultaneous Localization and Mapping (SLAM). 
+               The motion estimation is bound to drift over time due to cumulative errors. Fortunately, the correct identification of a revisited area provided by the place 
+               recognition module enables further optimizations that correct drifting errors if detected in real-time. Place recognition based on structural information of 
+               the scene is more robust to luminosity changes that can lead to false detections in the case of feature-based descriptors. However, they were mainly investigated 
+               in the context of depth sensors. Inspired by a LiDAR-based descriptor, we present a global geometric descriptor based on the structural information captured by a stereo camera. 
+               Using this descriptor, we can achieve real-time place recognition by focusing on the structural appearance of the scene derived from a 3D vision system. 
+               First, we introduce the approach used to record the 3D structural information of the visible space based on stereo images. Then, we conduct a parametric 
+               optimization protocol for precise place recognition in a given environment. Our experiments on the KITTI dataset show that the proposed approach is comparable to 
+               state-of-the-art methods, all while being low-cost. We studied the algorithm's complexity to propose an optimized parallelization on GPU and SoC architectures. 
+               Performance evaluation on different hardware (GeForce RTX 3080, Jetson AGX Xavier, and Arria 10 SoC) shows that the real-time requirements of an embedded system are met. 
+               Compared to a CPU implementation, processing times showed a speed-up between 7x and 30x, depending on the architecture.},
+  pdf       = {https://spie.org/optics-optoelectronics/presentation/Real-time-large-scale-place-recognition-for-autonomous-ground-vehicles/12571-2}
+}
+
+
+
+
+
+@inproceedings{chghaf2021,
+  abbr      = {GdR-Rob},
+  title     = {SLAM pour véhicules terrestres: évaluation des méthodes de l'état de l'art sur un véhicule instrumenté},
+  author    = {Chghaf, Mohammed and Florez, Sergio Alberto Rodriguez and Elouardi, Abdelhafid},
+  booktitle = {Robotique Mobile},
+  year      = {2021},
+  abstract  = {Actuellement, nous assistons à une évolution rapide des besoins en termes de fonctions de localisation et de cartographie simultanées (dites SLAM) 
+               dans de nombreux domaines applicatifs et principalement pour les véhicules autonomes. La recherche dans ce domaine a conduit à plusieurs avancées 
+               pour le traitement de données riches en indicateurs et en sémantiques d'informations issues de plusieurs capteurs extéroceptifs (ex. vision RGB-D, LiDAR,...).
+               Cependant, peu de travaux se sont intéressés aux exigences de calcul élevées pour le traitement temps-réel et embarqué ainsi qu'aux contraintes d'intégrité 
+               des différentes modalités de perception.
+               Dans cette présentation, nous allons exposer l'état de l'art de la thématique et une étude expérimentale d'algorithmes de localisation et de cartographie 
+               simultanées basés sur une seule modalité de perception (vision ou LiDAR). Cette étude fera usage d'un jeu de données recueilli par le véhicule expérimental 
+               du laboratoire SATIE. Nous présenterons par la suite des perspectives vers la fusion de ces deux modalités de perception.
+               Finalement, nous aborderons la question de l'embarquabilité, de ses stratégies et les défis qu'elle présente.
+               .},
+  pdf       = {https://wiki.2rm.cnrs.fr/JT_robmob_2021?action=AttachFile&do=view&target=Pr%C3%A9sentation_MC_GDR_ROB_2RM_2021.pdf},
+  video     = {https://peertube.laas.fr/w/4e241410-b16d-4cbd-bf14-3c113e6f5ec9}
+}

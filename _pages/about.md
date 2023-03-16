@@ -1,12 +1,12 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: left
-  image:  
+  align: right
+  image: photo_clipped_Modified.png
   # address: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
@@ -14,12 +14,21 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD Student at Laboratory of Systems & Applications of Information & Energy Technologies - SATIE. 
+**Hello there!** I am a PhD Student at **<a target="_blank" href="http://satie.ens-paris-saclay.fr">Laboratory of Systems & Applications of Information & Energy Technologies - SATIE</a>**.
 
-My research activities are focused on multi-modal embedded SLAM systems for autonomous vehicles.
+My research activities are focused on multi-modal embedded SLAM systems for **autonomous vehicles**.
+
+
+## **Contact**
+
+I'm always looking for new things to do and learn so if you are interested in
+any part of my work, please contact me using the information below:
+
+- **Email**: **mohammed.chghaf[at]gmail.com**
+- **[LinkedIn](https://www.linkedin.com/in/mohammedchghaf/)**
 
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
