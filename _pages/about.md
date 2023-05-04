@@ -17,9 +17,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-**Hello there!** I am a PhD Student at **<a target="_blank" href="http://satie.ens-paris-saclay.fr">Laboratory of Systems & Applications of Information & Energy Technologies - SATIE</a>**.
+**Hello there!** I am a PhD Student at **<a target="_blank" href="http://satie.ens-paris-saclay.fr">Laboratory of Systems & Applications of Information & Energy Technologies - SATIE</a>**, 
+where I work on multimodal embedded SLAM systems for **autonomous vehicles** under the supervision of **<a target="_blank" href="https://hebergement.universite-paris-saclay.fr/sergio.rodriguez">Sergio Rodríguez Flórez</a>** and **<a target="_blank" href="https://scholar.google.com/citations?user=XeCMgjwAAAAJ&hl=fr">Abdelhafid El Ouardi</a>**.
 
-My research activities are focused on multi-modal embedded SLAM systems for **autonomous vehicles**.
+My research activities include **Multimodal Perception**, **Data Fusion**, **Intelligent Transportation Systems** and **Hardware-Software co-design**, .
 
 
 ## **Contact**
