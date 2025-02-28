@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Localization & HD Mapping Engineer, PhD. in Robotics"
   location         : "Earth"
-  employer         : "AMPERE Software Technology"
+  employer         : "AMPERE"
   uri              : https://mohammedchghaf.github.io/
   email            : "mohammed.chghaf@gmail.com" 
 
@@ -94,7 +94,7 @@ talkmap_link             : false      #change to true to add link to talkmap on 
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            :
+    shortname            : MC
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -225,7 +225,9 @@ collections:
   talks:
     output: false # MC : commented
     permalink: /:collection/:path/
-
+  news:
+    output: true # MC : commented
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
