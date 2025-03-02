@@ -7,3 +7,4 @@ I completed my PhD in 2023 from [Paris-Saclay University](https://www.universite
 Prior to my PhD, I graduated from [Paris-Saclay University](https://www.universite-paris-saclay.fr/) ([M2 Embedded Systems & Data Fusion](https://www.universite-paris-saclay.fr/formation/master/electronique-energie-electrique-automatique/m2-systemes-embarques-et-traitement-de-linformation)) and [Mohammadia School of Engineers](https://www.emi.ac.ma/emi/) (Automation & Control Engineering).
 
 To get in touch, check my [homepage](https://mohammedchghaf.github.io/)
+
