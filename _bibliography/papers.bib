@@ -1,0 +1,214 @@
+---
+---
+
+@article{chghaf:hal-03647769,
+  bibtex_show = {false},
+  selected    = {true},
+  website     = {https://www.mdpi.com/2079-9292/14/3/421},
+  abbr        = {MDPI},
+  title       = {{Extended Study of a Multi-Modal Loop Closure Detection Framework for SLAM Applications}},
+  author      = {Chghaf, Mohammed and Rodriguez, Sergio and El Ouardi, Abdelhafid},
+  url         = {https://www.mdpi.com/2079-9292/14/3/421},
+  journal     = {{Electronics}},
+  publisher   = {{MDPI}},
+  volume      = {14},
+  number      = {3},
+  pages       = {421},
+  year        = {2025},
+  month       = Jan,
+  doi         = {10.3390/electronics14030421},
+  pdf         = {https://www.mdpi.com/2079-9292/14/3/421/pdf?version=1737539131},
+  abstract    = {Loop Closure (LC) is a crucial task in Simultaneous Localization and Mapping (SLAM) for Autonomous Ground Vehicles (AGV). It is an active research area because it improves global localization efficiency. The consistency of the global map and the accuracy of the AGV’s location in an unknown environment are highly correlated with the efficiency and robustness of Loop Closure Detection (LCD), especially when facing environmental changes or data unavailability. We propose to introduce multimodal complementary data to increase the algorithms’ resilience. Various methods using different data sources have been proposed to achieve precise place recognition. However, integrating a multimodal loop-closure fusion process that combines multiple information sources within a SLAM system has been explored less. Additionally, existing multimodal place recognition techniques are often difficult to integrate into existing frameworks. In this paper, we propose a fusion scheme of multiple place recognition methods based on camera and LiDAR data for a robust multimodal LCD. The presented approach uses Similarity-Guided Particle Filtering (SGPF) to identify and verify candidates for loop closure. Based on the ORB-SLAM2 framework, the proposed method uses two perception sensors (camera and LiDAR) under two data representation models for each. Our experiments on both KITTI and a self-collected dataset show that our approach outperforms the state-of-the-art methods in terms of place recognition metrics or localization accuracy metrics. The proposed Multi-Modal Loop Closure (MMLC) framework enhances the robustness and accuracy of AGV’s localization by fusing multiple sensor modalities, ensuring consistent performance across diverse environments. Its real-time operation and early loop closure detection enable timely trajectory corrections, reducing navigation errors and supporting cost-effective deployment with adaptable sensor configurations.},
+  altmetric   = {false},
+  dimensions  = {false},
+  preview={mdpi_2025.png},
+}
+
+@article{chghaf:hal-03647769,
+  bibtex_show = {false},
+  selected    = {false},
+  website     = {https://link.springer.com/article/10.1007/s10846-022-01582-8},
+  abbr        = {JINT},
+  title       = {{An Extended HOOFR SLAM Algorithm Using IR-D Sensor Data for Outdoor Autonomous Vehicle Localization}},
+  author      = {El Bouazzaoui, Imad and Chghaf, Mohammed and Rodriguez, Sergio and Nguyen, Dai Duong and El Ouardi, Abdelhafid},
+  url         = {https://link.springer.com/article/10.1007/s10846-023-01975-3},
+  journal     = {{Journal of Intelligent and Robotic Systems}},
+  publisher   = {{Springer}},
+  volume      = {109},
+  number      = {56},
+  year        = {2023},
+  month       = Oct,
+  doi         = {10.1007/s10846-023-01975-3},
+  pdf         = {https://link.springer.com/article/10.1007/s10846-023-01975-3},
+  abstract    = {Several works have been carried out in the realm of RGB-D SLAM development, yet they have neither been thoroughly assessed nor adapted for outdoor vehicular contexts. This paper proposes an extension of HOOFR SLAM to an enhanced IR-D modality applied to an autonomous vehicle in an outdoor environment. We address the most prevalent camera issues in outdoor contexts: environments with an image-dominant overcast sky and the presence of dynamic objects. We used a depth-based filtering method to identify outlier points based on their depth value. The method is robust against outliers and also computationally inexpensive. For faster processing, we suggest optimization of the pose estimation block by replacing the RANSAC method used for essential matrix estimation with PROSAC. We assessed the algorithm using a self-collected IR-D dataset gathered by the SATIE laboratory instrumented vehicle using a PC and an embedded architecture. We compared the measurement results to those of the most advanced algorithms by assessing translational error and average processing time. The results revealed a significant reduction in localization errors and a significant gain in processing speed compared to the state-of-the-art stereo (HOOFR SLAM) and RGB-D algorithms (Orb-slam2, Rtab-map).},
+  altmetric   = {false},
+  dimensions  = {true},
+  preview={jint_2023.png},
+}
+
+
+@article{chghaf2023_thesis,
+  bibtex_show = {true},
+  selected    = {false},
+  website     = {https://theses.fr/2023UPAST133},
+  abbr        = {THESIS},
+  title       = {{Towards a Multimodal Loop Closure System for Real-Time Embedded SLAM Applications}},
+  author      = {Mohammed Chghaf},
+  url         = {https://www.sciencedirect.com/science/article/pii/S0921889023000854},
+  volume      = {},
+  pages       = {},
+  year        = {2023},
+  pdf         = {https://theses.hal.science/tel-04756884/document},
+  keywords    = {SLAM, Camera, LiDAR, Localization, Loop closure, Mapping, Fusion, Multimodal},
+  altmetric   = {false},
+  dimensions  = {false},
+  preview={thesis_2023.png},
+}
+
+
+@inproceedings{Chghaf2020,
+  bibtex_show = {true},
+  selected    = {false},
+  website     = {https://rtcsa2020.github.io/index/?page=program.html},
+  abbr        = {RTCSA},
+  title       = {{Data distribution on a multi-GPU node for TomoBayes CT reconstruction}},
+  author      = {Chghaf, Mohammed and Gac, Nicolas},
+  url         = {https://hal.archives-ouvertes.fr/hal-02586239},
+  note        = {Virtual conference (Covid)},
+  booktitle   = {{The 26th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications}},
+  address     = {South Korea},
+  year        = {2020},
+  month       = Aug,
+  keywords    = {Multi GPU ; Iterative reconstruction ; Data Distribution},
+  pdf         = {https://hal.archives-ouvertes.fr/hal-02586239v4/file/main.pdf},
+  hal_id      = {hal-02586239},
+  hal_version = {v4},
+  video       = {https://www.youtube.com/watch?v=gzkpGD-KBpo},
+  abstract    = {Computed tomography (CT) is an imaging tech- nique that uses iterative algorithms to reconstruct the interior of large volumes. Graphics Processing Units (GPUs) are cur- rently the preferred technology for computation acceleration. However, the collected data storage can exceed the internal memory of current GPUs and therefore requires costly CPU GPU data transfers. In this paper, we present a strategy of data distribution over several GPUs avoiding this bottleneck. We provide experimental results showing that our memory-saving method accelerates the iterative reconstruction. We achieve a better parallelisation efficiency using 8 GPUs to reconstruct a volume of size 4 GB than reconstructions based on centralised data storage on CPU.},
+  preview={rtcsa_2020.png},
+}
+
+@article{chghaf:hal-03647769,
+  bibtex_show = {true},
+  selected    = {true},
+  website     = {https://link.springer.com/article/10.1007/s10846-022-01582-8},
+  abbr        = {JINT},
+  title       = {{Camera, LiDAR and Multi-modal SLAM Systems for Autonomous Ground Vehicles: a Survey}},
+  author      = {Chghaf, Mohammed and Rodríguez Flórez, Sergio Alberto and El Ouardi, Abdelhafid},
+  url         = {https://link.springer.com/article/10.1007/s10846-022-01582-8?noAccess=true},
+  journal     = {{Journal of Intelligent and Robotic Systems}},
+  publisher   = {{Springer Verlag}},
+  volume      = {105},
+  number      = {1},
+  pages       = {2},
+  year        = {2022},
+  month       = Apr,
+  doi         = {10.1007/s10846-022-01582-8},
+  hal_id      = {hal-03647769},
+  hal_version = {v1},
+  pdf         = {https://rdcu.be/cLMWA},
+  abstract    = {Simultaneous Localization and Mapping (SLAM) have been widely studied over the last years for autonomous vehicles. SLAM achieves its purpose by constructing a map of the unknown environment while keeping track of the location. A major challenge, which is paramount during the design of SLAM systems, lies in the efficient use of onboard sensors to perceive the environment. The most widely applied algorithms are camera-based SLAM and LiDAR-based SLAM. Recent research focuses on the fusion of camera-based and LiDAR-based frameworks that show promising results. In this paper, we present a study of commonly used sensors and the fundamental theories behind SLAM algorithms. The study then presents the hardware architectures used to process these algorithms and the performance obtained when possible. Secondly, we highlight state-of-the-art methodologies in each modality and in the multi-modal framework. A brief comparison followed by future challenges is then underlined. Additionally, we provide insights to possible fusion approaches that can increase the robustness and accuracy of modern SLAM algorithms; hence allowing the hardware-software co-design of embedded systems taking into account the algorithmic complexity and the embedded architectures and real-time constraints.},
+  altmetric   = {false},
+  dimensions  = {true},
+  preview={survey_2022.png},
+}
+
+
+
+
+@article{chghaf2023_ras,
+  bibtex_show = {true},
+  selected    = {true},
+  website     = {https://www.sciencedirect.com/science/article/abs/pii/S0921889023000854},
+  abbr        = {RAS},
+  title       = {{A Multimodal Loop Closure Fusion for Autonomous Vehicles SLAM}},
+  author      = {Chghaf, Mohammed and Rodríguez Flórez, Sergio Alberto and El Ouardi, Abdelhafid},
+  url         = {https://www.sciencedirect.com/science/article/pii/S0921889023000854},
+  journal     = {{Robotics and Autonomous Systems}},
+  publisher   = {{Elsevier}},
+  volume      = {165},
+  pages       = {104446},
+  year        = {2023},
+  issn        = {0921-8890},
+  doi         = {https://doi.org/10.1016/j.robot.2023.104446},
+  pdf         = {https://authors.elsevier.com/a/1h0wl3HdG3lG4M},
+  keywords    = {SLAM, Camera, LiDAR, Localization, Loop closure, Mapping, Fusion, Multimodal},
+  abstract    = {Place recognition and loop closure detection are critical steps in the process of Simultaneous Localization and Mapping (SLAM). Indeed, the ability to determine whether an Autonomous Ground Vehicle (AGV) has returned to a previously visited place is highly important in the context of building a reliable SLAM system. In order to build a consistent global map and to localize the AGV with high confidence in an unknown environment, it is crucial to reduce the cumulative error generated by pose estimation. Although multiple approaches using various data sources have been proposed in order to provide an accurate pose estimation, fewer studies have focused on the integration of a multimodal process to detect loop closure. In this work, we present a novel approach to leverage multiple modalities for a robust and reliable loop closure detection. Our method is based on Similarity-Guided Particle Filtering (SGPF) for the search and validation of Loop Closure Candidates (LCCs). We validate the proposed Multimodal Loop Closure (MMLC) by using two perception modalities based on Bag-of-Words and Scan Context techniques for camera-based and LiDAR-based place recognition, respectively. The efficiency of our method has been evaluated on both KITTI and a self-collected dataset. Compared to the classical loop closure used in ORB-SLAM2, the suggested approach reduces the Absolute Trajectory Error (ATE) by up to 54% and the cumulative error during run-time by up to 62.63%. Finally, 100% of the loops are accurately detected and the ground truth distance between the current pose and the LC is less than 3m in 98% of the cases.},
+  altmetric   = {false},
+  dimensions  = {false},
+  preview={mmlc_2023.jpg},
+}
+
+
+@inproceedings{chghaf2022stereo,
+  bibtex_show = {true},
+  selected    = {false},
+  website     = {http://gretsi.fr/colloque2022/programme/},
+  abbr        = {GRETSI},
+  title       = {A stereo vision geometric descriptor for place recognition and its GPU acceleration for autonomous vehicles applications},
+  author      = {Chghaf, Mohammed and Florez, Sergio Alberto Rodriguez and El Ouardi, Abdelhafid},
+  booktitle   = {XXVIII{\`e}me Colloque Francophone de Traitement du Signal et des Images, GRETSI'22},
+  year        = {2022},
+  pdf         = {http://gretsi.fr/data/colloque/pdf/2022_chghaf1024.pdf},
+  abstract    = {In this paper we present a geometric global descriptor dedicated for place recognition in autonomous vehicles applications that is based
+               on stereo camera generated point clouds. We first present the approach used to record the 3D structure of the visible space. Then, we propose
+               a parametric optimization to achieve the best performance by coupling the dedicated sensor (Stereo Camera) and the used algorithm. Finally, we
+               propose a GPU implementation based on CUDA. Compared to a CPU, processing times on GPU are accelerated 7 times on a Jetson AGX Xavier
+               and 30 times using a GeForce RTX 3080.},
+  preview={gretsi_2022.png},
+}
+
+
+
+
+
+@inproceedings{chghaf2023_spie,
+  bibtex_show = {true},
+  selected    = {true},
+  website     = {https://spie.org/optics-optoelectronics/presentation/Real-time-large-scale-place-recognition-for-autonomous-ground-vehicles/12571-2},
+  abbr        = {SPIE+OO},
+  title       = {Real-time large-scale place recognition for autonomous ground vehicles using a spatial descriptor},
+  author      = {Chghaf, Mohammed and Florez, Sergio Alberto Rodriguez and El Ouardi, Abdelhafid},
+  booktitle   = {SPIE Optics and Optoelectronics},
+  year        = {2023},
+  abstract    = {Place recognition is a key task in an autonomous vehicle's Simultaneous Localization and Mapping (SLAM). 
+               The motion estimation is bound to drift over time due to cumulative errors. Fortunately, the correct identification of a revisited area provided by the place 
+               recognition module enables further optimizations that correct drifting errors if detected in real-time. Place recognition based on structural information of 
+               the scene is more robust to luminosity changes that can lead to false detections in the case of feature-based descriptors. However, they were mainly investigated 
+               in the context of depth sensors. Inspired by a LiDAR-based descriptor, we present a global geometric descriptor based on the structural information captured by a stereo camera. 
+               Using this descriptor, we can achieve real-time place recognition by focusing on the structural appearance of the scene derived from a 3D vision system. 
+               First, we introduce the approach used to record the 3D structural information of the visible space based on stereo images. Then, we conduct a parametric 
+               optimization protocol for precise place recognition in a given environment. Our experiments on the KITTI dataset show that the proposed approach is comparable to 
+               state-of-the-art methods, all while being low-cost. We studied the algorithm's complexity to propose an optimized parallelization on GPU and SoC architectures. 
+               Performance evaluation on different hardware (GeForce RTX 3080, Jetson AGX Xavier, and Arria 10 SoC) shows that the real-time requirements of an embedded system are met. 
+               Compared to a CPU implementation, processing times showed a speed-up between 7x and 30x, depending on the architecture.},
+  pdf         = {https://spie.org/optics-optoelectronics/presentation/Real-time-large-scale-place-recognition-for-autonomous-ground-vehicles/12571-2},
+  preview={spie_2023.png},
+
+}
+
+
+
+
+
+@inproceedings{chghaf2021,
+  abbr      = {GdR-Rob},
+  title     = {SLAM pour véhicules terrestres: évaluation des méthodes de l'état de l'art sur un véhicule instrumenté},
+  author    = {Chghaf, Mohammed and Florez, Sergio Alberto Rodriguez and El Ouardi, Abdelhafid},
+  booktitle = {Robotique Mobile},
+  year      = {2021},
+  abstract  = {Actuellement, nous assistons à une évolution rapide des besoins en termes de fonctions de localisation et de cartographie simultanées (dites SLAM) 
+               dans de nombreux domaines applicatifs et principalement pour les véhicules autonomes. La recherche dans ce domaine a conduit à plusieurs avancées 
+               pour le traitement de données riches en indicateurs et en sémantiques d'informations issues de plusieurs capteurs extéroceptifs (ex. vision RGB-D, LiDAR,...).
+               Cependant, peu de travaux se sont intéressés aux exigences de calcul élevées pour le traitement temps-réel et embarqué ainsi qu'aux contraintes d'intégrité 
+               des différentes modalités de perception.
+               Dans cette présentation, nous allons exposer l'état de l'art de la thématique et une étude expérimentale d'algorithmes de localisation et de cartographie 
+               simultanées basés sur une seule modalité de perception (vision ou LiDAR). Cette étude fera usage d'un jeu de données recueilli par le véhicule expérimental 
+               du laboratoire SATIE. Nous présenterons par la suite des perspectives vers la fusion de ces deux modalités de perception.
+               Finalement, nous aborderons la question de l'embarquabilité, de ses stratégies et les défis qu'elle présente.
+               .},
+  pdf       = {https://wiki.2rm.cnrs.fr/JT_robmob_2021?action=AttachFile&do=view&target=Pr%C3%A9sentation_MC_GDR_ROB_2RM_2021.pdf},
+  video     = {https://peertube.laas.fr/w/4e241410-b16d-4cbd-bf14-3c113e6f5ec9},
+  preview={2rm_2021.png},
+
+}
