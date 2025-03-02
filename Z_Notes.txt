@@ -1,0 +1,9 @@
+1. i changed entry_point.sh values to  
+(adding bundle install)
+start_jekyll() {
+    manage_gemfile_lock
+    bundle install
+    bundle exec jekyll serve --watch --port=8080 --host=localhost --livereload --verbose --trace --force_polling &
+}
+2. i did docker compose up --build
+
