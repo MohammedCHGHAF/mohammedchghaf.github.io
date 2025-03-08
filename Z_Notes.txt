@@ -7,3 +7,9 @@ start_jekyll() {
 }
 2. i did docker compose up --build
 
+3.   google_scholar_id = {qjMakFHDy7sC}
+  google_scholar_id = {zYLM7Y9cAGgC}
+  google_scholar_id = {WF5omc3nYNoC}
+
+https://clustrmaps.com/profile/
+
