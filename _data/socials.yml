@@ -46,6 +46,7 @@ scholar_userid: rSdm4WkAAAAJ&hl # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
-  logo: https://upload.wikimedia.org/wikipedia/commons/4/49/Relativity3_Walk_of_Ideas_Berlin.JPG # can be png, svg, jpg
+  # logo: https://upload.wikimedia.org/wikipedia/commons/4/49/Relativity3_Walk_of_Ideas_Berlin.JPG # can be png, svg, jpg
+  logo: assets/img/1mc2.png # can be png, svg, jpg
   title: Personal website
   url: https://mohammedchghaf.github.io/

@@ -20,7 +20,7 @@
   pdf         = {https://www.mdpi.com/2079-9292/14/3/421/pdf?version=1737539131},
   abstract    = {Loop Closure (LC) is a crucial task in Simultaneous Localization and Mapping (SLAM) for Autonomous Ground Vehicles (AGV). It is an active research area because it improves global localization efficiency. The consistency of the global map and the accuracy of the AGV’s location in an unknown environment are highly correlated with the efficiency and robustness of Loop Closure Detection (LCD), especially when facing environmental changes or data unavailability. We propose to introduce multimodal complementary data to increase the algorithms’ resilience. Various methods using different data sources have been proposed to achieve precise place recognition. However, integrating a multimodal loop-closure fusion process that combines multiple information sources within a SLAM system has been explored less. Additionally, existing multimodal place recognition techniques are often difficult to integrate into existing frameworks. In this paper, we propose a fusion scheme of multiple place recognition methods based on camera and LiDAR data for a robust multimodal LCD. The presented approach uses Similarity-Guided Particle Filtering (SGPF) to identify and verify candidates for loop closure. Based on the ORB-SLAM2 framework, the proposed method uses two perception sensors (camera and LiDAR) under two data representation models for each. Our experiments on both KITTI and a self-collected dataset show that our approach outperforms the state-of-the-art methods in terms of place recognition metrics or localization accuracy metrics. The proposed Multi-Modal Loop Closure (MMLC) framework enhances the robustness and accuracy of AGV’s localization by fusing multiple sensor modalities, ensuring consistent performance across diverse environments. Its real-time operation and early loop closure detection enable timely trajectory corrections, reducing navigation errors and supporting cost-effective deployment with adaptable sensor configurations.},
   altmetric   = {false},
-  dimensions  = {false},
+  dimensions  = {true},
   preview={mdpi_2025.png},
 }
 
@@ -42,7 +42,7 @@
   pdf         = {https://link.springer.com/article/10.1007/s10846-023-01975-3},
   abstract    = {Several works have been carried out in the realm of RGB-D SLAM development, yet they have neither been thoroughly assessed nor adapted for outdoor vehicular contexts. This paper proposes an extension of HOOFR SLAM to an enhanced IR-D modality applied to an autonomous vehicle in an outdoor environment. We address the most prevalent camera issues in outdoor contexts: environments with an image-dominant overcast sky and the presence of dynamic objects. We used a depth-based filtering method to identify outlier points based on their depth value. The method is robust against outliers and also computationally inexpensive. For faster processing, we suggest optimization of the pose estimation block by replacing the RANSAC method used for essential matrix estimation with PROSAC. We assessed the algorithm using a self-collected IR-D dataset gathered by the SATIE laboratory instrumented vehicle using a PC and an embedded architecture. We compared the measurement results to those of the most advanced algorithms by assessing translational error and average processing time. The results revealed a significant reduction in localization errors and a significant gain in processing speed compared to the state-of-the-art stereo (HOOFR SLAM) and RGB-D algorithms (Orb-slam2, Rtab-map).},
   altmetric   = {false},
-  dimensions  = {true},
+  dimensions  = {false},
   preview={jint_2023.png},
 }
 
@@ -94,7 +94,7 @@
   website     = {https://link.springer.com/article/10.1007/s10846-022-01582-8},
   abbr        = {JINT},
   title       = {{Camera, LiDAR and Multi-modal SLAM Systems for Autonomous Ground Vehicles: a Survey}},
-  author      = {Chghaf, Mohammed and Rodríguez Flórez, Sergio Alberto and El Ouardi, Abdelhafid},
+  author      = {Chghaf, Mohammed and Rodriguez, Sergio and El Ouardi, Abdelhafid },
   url         = {https://link.springer.com/article/10.1007/s10846-022-01582-8?noAccess=true},
   journal     = {{Journal of Intelligent and Robotic Systems}},
   publisher   = {{Springer Verlag}},
@@ -122,7 +122,7 @@
   website     = {https://www.sciencedirect.com/science/article/abs/pii/S0921889023000854},
   abbr        = {RAS},
   title       = {{A Multimodal Loop Closure Fusion for Autonomous Vehicles SLAM}},
-  author      = {Chghaf, Mohammed and Rodríguez Flórez, Sergio Alberto and El Ouardi, Abdelhafid},
+  author      = {Chghaf, Mohammed and Rodriguez, Sergio and El Ouardi, Abdelhafid},
   url         = {https://www.sciencedirect.com/science/article/pii/S0921889023000854},
   journal     = {{Robotics and Autonomous Systems}},
   publisher   = {{Elsevier}},
@@ -130,13 +130,14 @@
   pages       = {104446},
   year        = {2023},
   issn        = {0921-8890},
-  doi         = {https://doi.org/10.1016/j.robot.2023.104446},
+  doi         = {10.1016/j.robot.2023.104446},
   pdf         = {https://authors.elsevier.com/a/1h0wl3HdG3lG4M},
   keywords    = {SLAM, Camera, LiDAR, Localization, Loop closure, Mapping, Fusion, Multimodal},
   abstract    = {Place recognition and loop closure detection are critical steps in the process of Simultaneous Localization and Mapping (SLAM). Indeed, the ability to determine whether an Autonomous Ground Vehicle (AGV) has returned to a previously visited place is highly important in the context of building a reliable SLAM system. In order to build a consistent global map and to localize the AGV with high confidence in an unknown environment, it is crucial to reduce the cumulative error generated by pose estimation. Although multiple approaches using various data sources have been proposed in order to provide an accurate pose estimation, fewer studies have focused on the integration of a multimodal process to detect loop closure. In this work, we present a novel approach to leverage multiple modalities for a robust and reliable loop closure detection. Our method is based on Similarity-Guided Particle Filtering (SGPF) for the search and validation of Loop Closure Candidates (LCCs). We validate the proposed Multimodal Loop Closure (MMLC) by using two perception modalities based on Bag-of-Words and Scan Context techniques for camera-based and LiDAR-based place recognition, respectively. The efficiency of our method has been evaluated on both KITTI and a self-collected dataset. Compared to the classical loop closure used in ORB-SLAM2, the suggested approach reduces the Absolute Trajectory Error (ATE) by up to 54% and the cumulative error during run-time by up to 62.63%. Finally, 100% of the loops are accurately detected and the ground truth distance between the current pose and the LC is less than 3m in 98% of the cases.},
   altmetric   = {false},
-  dimensions  = {false},
+  dimensions  = {true},
   preview={mmlc_2023.jpg},
+
 }
 
 
@@ -146,7 +147,7 @@
   website     = {http://gretsi.fr/colloque2022/programme/},
   abbr        = {GRETSI},
   title       = {A stereo vision geometric descriptor for place recognition and its GPU acceleration for autonomous vehicles applications},
-  author      = {Chghaf, Mohammed and Florez, Sergio Alberto Rodriguez and El Ouardi, Abdelhafid},
+  author      = {Chghaf, Mohammed and Rodriguez, Sergio and El Ouardi, Abdelhafid},
   booktitle   = {XXVIII{\`e}me Colloque Francophone de Traitement du Signal et des Images, GRETSI'22},
   year        = {2022},
   pdf         = {http://gretsi.fr/data/colloque/pdf/2022_chghaf1024.pdf},
@@ -164,11 +165,11 @@
 
 @inproceedings{chghaf2023_spie,
   bibtex_show = {true},
-  selected    = {true},
+  selected    = {false},
   website     = {https://spie.org/optics-optoelectronics/presentation/Real-time-large-scale-place-recognition-for-autonomous-ground-vehicles/12571-2},
   abbr        = {SPIE+OO},
   title       = {Real-time large-scale place recognition for autonomous ground vehicles using a spatial descriptor},
-  author      = {Chghaf, Mohammed and Florez, Sergio Alberto Rodriguez and El Ouardi, Abdelhafid},
+  author      = {Chghaf, Mohammed and Rodriguez, Sergio and El Ouardi, Abdelhafid},
   booktitle   = {SPIE Optics and Optoelectronics},
   year        = {2023},
   abstract    = {Place recognition is a key task in an autonomous vehicle's Simultaneous Localization and Mapping (SLAM). 
@@ -194,7 +195,7 @@
 @inproceedings{chghaf2021,
   abbr      = {GdR-Rob},
   title     = {SLAM pour véhicules terrestres: évaluation des méthodes de l'état de l'art sur un véhicule instrumenté},
-  author    = {Chghaf, Mohammed and Florez, Sergio Alberto Rodriguez and El Ouardi, Abdelhafid},
+  author    = {Chghaf, Mohammed and Rodriguez, Sergio and El Ouardi, Abdelhafid},
   booktitle = {Robotique Mobile},
   year      = {2021},
   abstract  = {Actuellement, nous assistons à une évolution rapide des besoins en termes de fonctions de localisation et de cartographie simultanées (dites SLAM) 
