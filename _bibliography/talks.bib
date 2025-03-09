@@ -1,0 +1,54 @@
+---
+---
+
+%%%%%
+%%% Talks
+%%%%%
+
+@inproceedings{chghaf2023_spie,
+  selected    = {false},
+  website     = {https://spie.org/optics-optoelectronics/presentation/Real-time-large-scale-place-recognition-for-autonomous-ground-vehicles/12571-2},
+  abbr        = {SPIE+OO},
+  title       = {Real-time large-scale place recognition for autonomous ground vehicles using a spatial descriptor},
+  author      = {Chghaf, Mohammed and Rodriguez, Sergio and El Ouardi, Abdelhafid},
+  booktitle   = {Real-time Processing of Image, Depth and Video Information},
+  year        = {2023},
+  month       = {June},
+  abstract    = {Place recognition is a key task in an autonomous vehicle's Simultaneous Localization and Mapping (SLAM). 
+               The motion estimation is bound to drift over time due to cumulative errors. Fortunately, the correct identification of a revisited area provided by the place 
+               recognition module enables further optimizations that correct drifting errors if detected in real-time. Place recognition based on structural information of 
+               the scene is more robust to luminosity changes that can lead to false detections in the case of feature-based descriptors. However, they were mainly investigated 
+               in the context of depth sensors. Inspired by a LiDAR-based descriptor, we present a global geometric descriptor based on the structural information captured by a stereo camera. 
+               Using this descriptor, we can achieve real-time place recognition by focusing on the structural appearance of the scene derived from a 3D vision system. 
+               First, we introduce the approach used to record the 3D structural information of the visible space based on stereo images. Then, we conduct a parametric 
+               optimization protocol for precise place recognition in a given environment. Our experiments on the KITTI dataset show that the proposed approach is comparable to 
+               state-of-the-art methods, all while being low-cost. We studied the algorithm's complexity to propose an optimized parallelization on GPU and SoC architectures. 
+               Performance evaluation on different hardware (GeForce RTX 3080, Jetson AGX Xavier, and Arria 10 SoC) shows that the real-time requirements of an embedded system are met. 
+               Compared to a CPU implementation, processing times showed a speed-up between 7x and 30x, depending on the architecture.},
+  preview     = {spie_2023.png},
+  video       = {https://youtu.be/8Ng-vfzaV04},
+  url_video = {https://youtu.be/8Ng-vfzaV04}
+
+}
+
+
+@inproceedings{Chghaf2020,
+  selected    = {false},
+  website     = {https://rtcsa2020.github.io/index/?page=program.html},
+  abbr        = {RTCSA},
+  title       = {{Data distribution on a multi-GPU node for TomoBayes CT reconstruction}},
+  author      = {Chghaf, Mohammed and Gac, Nicolas},
+  url         = {https://hal.archives-ouvertes.fr/hal-02586239},
+  note        = {Virtual conference (Covid)},
+  booktitle   = {{The 26th IEEE International Conference on Embedded and Real-Time Computing Systems and Applications}},
+  address     = {South Korea},
+  year        = {2020},
+  month       = {August},
+  keywords    = {Multi GPU ; Iterative reconstruction ; Data Distribution},
+  hal_id      = {hal-02586239},
+  hal_version = {v4},
+  video       = {https://youtu.be/yvzq0-SGj_8},
+  url_video   = {https://youtu.be/yvzq0-SGj_8},
+  abstract    = {Computed tomography (CT) is an imaging tech- nique that uses iterative algorithms to reconstruct the interior of large volumes. Graphics Processing Units (GPUs) are cur- rently the preferred technology for computation acceleration. However, the collected data storage can exceed the internal memory of current GPUs and therefore requires costly CPU GPU data transfers. In this paper, we present a strategy of data distribution over several GPUs avoiding this bottleneck. We provide experimental results showing that our memory-saving method accelerates the iterative reconstruction. We achieve a better parallelisation efficiency using 8 GPUs to reconstruct a volume of size 4 GB than reconstructions based on centralised data storage on CPU.},
+  preview     = {rtcsa_2020.png},
+}

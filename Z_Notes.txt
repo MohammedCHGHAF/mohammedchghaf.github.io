@@ -5,11 +5,5 @@ start_jekyll() {
     bundle install
     bundle exec jekyll serve --watch --port=8080 --host=localhost --livereload --verbose --trace --force_polling &
 }
-2. i did docker compose up --build
-
-3.   google_scholar_id = {qjMakFHDy7sC}
-  google_scholar_id = {zYLM7Y9cAGgC}
-  google_scholar_id = {WF5omc3nYNoC}
-
-https://clustrmaps.com/profile/
+2. docker compose up --build
 

@@ -30,15 +30,30 @@
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=entry_path
-            sizes = "200px"
-            class="preview z-depth-1 rounded"
-            zoomable=true
-            alt=entry.preview
-          %}
+            {% if entry.url_video contains '://' %}
+              {% assign entry_url = entry.url_video %}  <!-- The link you want to reference -->
+              <a href="{{ entry_url }}">
+                {%
+                  include figure.liquid
+                  loading="eager"
+                  path=entry_path
+                  sizes="200px"
+                  class="preview z-depth-1 rounded"
+                  zoomable=true
+                  alt=entry.preview
+                %}
+              </a>
+            {% else %}
+              {%
+                include figure.liquid
+                loading="eager"
+                path=entry_path
+                sizes = "200px"
+                class="preview z-depth-1 rounded"
+                zoomable=true
+                alt=entry.preview
+              %}
+            {% endif %}
         {% endif %}
       {% endif %}
     </div>
